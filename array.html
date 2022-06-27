@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+const aa = new Array;
+
+aa.push(5,4,7,9,3,2,0,6);
+
+const xx = aa.filter( a => a>5);
+
+console.log(aa);
+
+console.log(xx);
+
+
+
+function Circle(radius) {
+this.radius = radius;
+}
+
+Circle.prototype.getArea = function() {
+
+    return Math.PI * this.radius ** 2;
+};
+
+const circle1 = new Circle(1);
+const circle2 = new Circle(2);
+
+console.log(circle1.getArea());
+
+console.log(circle2.getArea());
+
+console.log(Circle.prototype.getArea);
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
